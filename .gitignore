@@ -1,0 +1,12 @@
+# Configurações sensíveis
+.env  
+
+# Dados do banco
+postgres_data/  
+metabase/data/  
+logs/  
+postgres-init/init.sql  
+
+# Airflow
+airflow/dags/__pycache__/  
+airflow/plugins/__pycache__/  
