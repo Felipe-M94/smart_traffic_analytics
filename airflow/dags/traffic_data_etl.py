@@ -72,7 +72,7 @@ def fetch_tomtom_traffic():
 dag = DAG(
     "tomtom_traffic_data",
     description="Coleta de dados do TomTom Traffic",
-    schedule_interval=timedelta(minutes=10),  # Executa a cada 10 minutos
+    schedule_interval="*/10 * * * *",  # Executa a cada 10 minutos
     start_date=datetime(2025, 2, 10),  # Data de início da execução
     catchup=False,  # Não realiza execução retroativa
 )
