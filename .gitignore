@@ -3,7 +3,7 @@
 
 # Dados do banco
 postgres_data/  
-metabase/data/  
+  
 logs/  
 postgres-init/init.sql  
 
