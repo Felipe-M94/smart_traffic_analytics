@@ -14,7 +14,7 @@ A solução utiliza uma arquitetura baseada em contêineres Docker para facilita
   - **TomTom Traffic API**: Obtém informações sobre condições de tráfego em tempo real.
   - **Tomorrow.io API**: Fornece previsões meteorológicas para análise do impacto do clima no tráfego.
 
-_Aqui pode ser adicionada uma imagem ilustrando a arquitetura._
+![Screenshot_4](https://github.com/user-attachments/assets/b8c54429-f2e3-419e-8858-e15e301724fc)
 
 ---
 
@@ -55,7 +55,7 @@ Após a coleta de dados, você pode acessar o Metabase e criar dashboards para v
 - Variação do fluxo de tráfego ao longo do tempo  
 - Impacto das condições climáticas no tráfego  
 
-Além disso, há scripts SQL disponíveis no repositório para facilitar a análise de dados no Metabase.
+![Screenshot_1](https://github.com/user-attachments/assets/d832447c-75a5-473d-bd81-d8c6129e187c)
 
 ---
 
