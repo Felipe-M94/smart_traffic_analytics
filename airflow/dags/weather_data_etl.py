@@ -1,4 +1,3 @@
-from wsgiref import headers
 import requests
 import psycopg2
 from airflow import DAG
@@ -82,7 +81,7 @@ def fetch_weather_data():
 dag = DAG(
     "fetch_weather_data",
     description="Coleta de dados meteorológicos da Tomorrow.io para São Paulo",
-    schedule_interval="*/30 * * * *",  # Executa a cada 30 minutos
+    schedule_interval="*/10 * * * *",  # Executa a cada 10 minutos
     start_date=datetime(2025, 2, 11),
     catchup=False,
 )
